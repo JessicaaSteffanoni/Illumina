@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+
+
+.container {
+    width: 90%;
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
+}
+
+header{
+    background: url(./logo/Home\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+ a {
+    text-decoration: none;
+ }
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header ul li {
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+header img {
+    
+    width: 100px;
+    margin-left: 50px;
+    display: block;
+    padding: 20px;
+}
+
+header a {
+
+    text-decoration: none;
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 17px;
+
+}
+
+
+.menu li a:hover {
+    background-color: black;
+    color: #AEF535;
+
+}
+
+
+h1 h2 h3 h4 h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #AEF535;
+    margin: 40px 0px;
+    text-align: right;
+
+
+    
+}
+.hero {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin: 50px 0;
+    padding: 0 20px; /* Agrega algo de padding para los márgenes laterales */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.herotext {
+    margin-left: 50px;
+    width: 60%;
+    padding: 20px;
+    font-size: 2.2rem; /* Usar rem para una mejor escalabilidad */
+    color: #ffffff;
+    text-align: left; /* Alineación de texto */
+}
+
+.heroimg {
+    width: 40%;
+}
+
+.hero-img img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacios debajo de la imagen */
+    width: 500px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background: #AEF535;
+    border: 1px solid #51575f;
+    margin: 35px 10px 0 0;
+    padding: 15px 25px;
+    color: #000000;
+    border-radius: 25px;
+    text-decoration: none; /* Elimina subrayado si es un enlace */
+    font-size: 1rem; /* Usar rem para una mejor escalabilidad */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+}
+
+.btn-1:hover {
+    background-color: #385576;
+    color: #ffffff;
+}
+
+.services {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas */
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+
+.service {
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgba(11, 53, 92, 0.3);
+    width: calc(33.333% - 20px); /* Tres elementos por fila con espacio entre ellos */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #385576;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.service icon {
+    color: #AEF535;
+}
+
+.beneficios {
+    background-color: #ffffff;
+
+    padding: 80px;
+    text-align: center;
+    color: #385576;
+}
+
+.beneficios h2 {
+
+    font-size: 55px;
+}
+
+.beneficio img {
+    width: 350px;
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+}
+
+.beneficio-1 {
+
+    text-align: left;
+    margin: 100px;
+
+    border-color: #385576;
+    padding: 50px;
+    border-radius: 7px; 
+    margin-bottom: 1px;
+}
+
+.beneficio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.beneficio-1 p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.beneficio-2 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.beneficio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.beneficio-2 p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #385576;
+    color: #ffffff;
+    list-style: none;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-2:hover {
+    background-color: #AEF535;
+    color: #000000;
+}
+.contenedor a img {
+    width: 30px;
+}
+
+
+
+#form {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "from_name email_id"
+      "message message"
+      "button button";
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #from_name {
+    grid-area: from_name;
+  }
+  
+  #email_id {
+    grid-area: email_id;
+  }
+  
+  #message {
+    grid-area: message;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px; /* Ajusta la altura según lo necesites */
+  }
+  
+  #button {
+    grid-area: button;
+    background-color: #AEF535;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-self: end;
+  }
+  
+  #button:hover {
+    background-color: #AEF535;
+  }
+
+footer {
+    background-color: #f8f8f8; /* Color de fondo */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes-sociales {
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los íconos */
+    opacity: 0;
+    animation: fadeIn 1s forwards; /* Añadir animación */
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.redes-sociales a {
+    display: inline-block;
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+.redes-sociales a:hover {
+    transform: scale(1.1); /* Escala el ícono cuando se pasa el ratón */
+}
+
+.redes-sociales img {
+    width: 40px; /* Tamaño de los íconos */
+    height: auto;
+}
+
+.informacion {
+    font-size: 14px;
+    color: #555555;
+}
+
+.informacion p {
+    margin: 0;
+}
